@@ -47,7 +47,7 @@ function App() {
             <hr className="w-80 border border-gray-400" />
           </div>
           <div className='mt-10 h-[675px] overflow-y-auto'>
-            <Listar estado={estado} setIdmetro={setIdmetro}/>
+            <Listar estado={estado} setIdmetro={setIdmetro}/> 
           </div>
         </div>
       </main>

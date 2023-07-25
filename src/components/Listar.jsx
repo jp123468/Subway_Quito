@@ -8,7 +8,7 @@ import { useState, useEffect } from "react"
 
 const handleDelete = async (id) => {
     try {
-        const confirmar = confirm("Vas a aliminar una ruta")
+        const confirmar = confirm("Vas a eliminar una ruta")
         if (confirmar) {
             const url = `http://localhost:3000/metro/${id}`
             await fetch(url, {
